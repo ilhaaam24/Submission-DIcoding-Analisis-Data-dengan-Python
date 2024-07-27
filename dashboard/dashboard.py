@@ -21,7 +21,7 @@ hour_df['dteday'] = pd.to_datetime(hour_df['dteday'])
 
 
 with st.sidebar:
-   st.image('../src/logo.png', width=200)
+
     
    st.markdown("""
   - **Author:** Muhammad Ilham
