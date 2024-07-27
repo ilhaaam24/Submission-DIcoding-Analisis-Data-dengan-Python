@@ -5,8 +5,8 @@ import seaborn as sns
 import plotly.express as px
 import streamlit as st
 
-day_df = pd.read_csv('../data/day.csv')
-hour_df = pd.read_csv('../data/hour.csv')
+day_df = pd.read_csv('https://raw.githubusercontent.com/ilhaaam24/Submission-DIcoding-Analisis-Data-dengan-Python/main/data/day.csv')
+hour_df = pd.read_csv('https://raw.githubusercontent.com/ilhaaam24/Submission-DIcoding-Analisis-Data-dengan-Python/main/data/hour.csv')
 
 Q1 = (hour_df['cnt']).quantile(0.25)
 Q3 = (hour_df['cnt']).quantile(0.75)
