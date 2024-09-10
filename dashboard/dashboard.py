@@ -21,9 +21,9 @@ hour_df['dteday'] = pd.to_datetime(hour_df['dteday'])
 
 
 with st.sidebar:
-
-    
+    st.image('')
    st.markdown("""
+  -
   - **Author:** Muhammad Ilham
   - **Email:** mi1797128@gmail.com
   - **ID Dicoding:** ilham24
