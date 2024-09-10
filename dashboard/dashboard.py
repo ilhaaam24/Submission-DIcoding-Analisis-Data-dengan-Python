@@ -21,14 +21,26 @@ hour_df['dteday'] = pd.to_datetime(hour_df['dteday'])
 
 
 with st.sidebar:
-    st.image('')
-   st.markdown("""
-  -
-  - **Author:** Muhammad Ilham
-  - **Email:** mi1797128@gmail.com
-  - **ID Dicoding:** ilham24
-  """)
-   
+    st.markdown(
+        """
+        <style>
+        .rounded-img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        </style>
+        <img src="https://github.com/ilhaaam24/Submission-DIcoding-Analisis-Data-dengan-Python/blob/main/assets/aboutbw.jpg?raw=true" class="rounded-img" />
+        """,
+        unsafe_allow_html=True
+    )
+    st.markdown("""
+    -
+    - **Author:** Muhammad Ilham
+    - **Email:** mi1797128@gmail.com
+    - **ID Dicoding:** ilham24
+    """)
 
 st.title('Analisis Data : Bike sharing')
 st.write('Dataset ini berasal dari sistem bike-sharing Capital Bikeshare di Washington D.C., USA, yang mencakup log historis dari tahun 2011 hingga 2012. Bike-sharing adalah sistem sewa sepeda modern yang memungkinkan pengguna untuk menyewa sepeda dari satu lokasi dan mengembalikannya di lokasi lain secara otomatis. Sistem ini tidak hanya mempermudah proses sewa, tetapi juga menghasilkan data yang berharga tentang pola mobilitas kota.')
