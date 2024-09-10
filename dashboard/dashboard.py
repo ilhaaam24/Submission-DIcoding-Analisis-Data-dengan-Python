@@ -36,7 +36,6 @@ with st.sidebar:
         unsafe_allow_html=True
     )
     st.markdown("""
-    -
     - **Author:** Muhammad Ilham
     - **Email:** mi1797128@gmail.com
     - **ID Dicoding:** ilham24
